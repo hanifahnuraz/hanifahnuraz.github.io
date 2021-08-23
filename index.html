@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <!-- =========== CSS =========== -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- =========== CDN FONT AWESOME =========== -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    ></link>
+
+    <title>Web CV Hanifah Nur Azizah</title>
+  </head>
+
+
+  <body>
+    <div id="container">
+      <!-- =========== PROFILE SIDE BAR =========== -->
+      <div id="profile">
+        <div id="image">
+          <img
+            id="profile-photo"
+            src="PP.jpg"
+            alt="Profile-Image"
+          />
+          <a href="#"><i class="fas fa-pen stroke-transparent"></i></a>
+        </div>
+        <p id="name">
+          Hanifah Nur Azizah<br /><span id="email"
+            >hanifahnazizah24@gmail.com</span
+          >
+        </p>
+        <p id="designation">
+          Teacher<br /><span id="college"
+            >Ex Happy Trails & Kumon (soon)</span
+          >
+        </p>
+        <div id="social-links">
+          <a href="#"><i class="fab fa-facebook-f stroke-transparent"></i></a
+          ><a><i class="fab fa-twitter stroke-transparent"></i></a
+          ><a><i class="fab fa-linkedin-in stroke-transparent"></i></a
+          ><a><i class="fab fa-github stroke-transparent"></i></a>
+        </div>
+        <!-- =========== ABOUT =========== -->
+        <hr width="100%" />
+        <div id="about">
+          <p style="display: inline">About me</p>
+        </div>
+        <p id="education">
+          Education<br /><strong
+            >Meteorology</strong
+          >
+        </p>
+        <p id="more-about">
+          More about me<br /><span
+            >I love coding</span
+          >
+        </p>
+        <p id="telephone">Telephone<br /><strong>+62-85222076507</strong></p>
+      </div>
+
+      <!-- =========== CARD =========== -->
+      <div id="info-cards">
+
+        <!-- =========== CARD EXPERINCE =========== -->
+        <div class="card" >
+          <p>
+            <i class="fas fa-briefcase stroke-transparent"></i>&nbsp;&nbsp;&nbsp;Work
+            Experience
+          </p>
+          <ul>
+            <li>
+              <p class="tags">
+                Happy Trails<br /><span
+                  >Child caregiver & Teacher assistant <span>May, 2021 - Aug, 2021</span></span
+                >
+              </p>
+            </li>
+          </ul>
+          <a href="#" >+ Add work experience, including contracts and internships</a>
+        </div>
+
+        <!-- =========== CARD WORKSHOP =========== -->
+        <div class="card">
+          <p>
+            <i class="fas fa-briefcase stroke-transparent"></i
+            >&nbsp;&nbsp;&nbsp;Workshop
+          </p>
+          <ul id="listExperience">
+            <li>
+              <p class="tags">
+                dibimbing.id<br /><span
+                  >Digital Skill Fair - Web Development <span>Aug, 2021 - now</span></span
+                >
+              </p>
+            </li>
+          </ul>
+          <a href="#" onclick="addExperience(event)" >+ Add work experience, including contracts and internships</a>
+        </div>
+
+        <!-- =========== CARD EDUCATION =========== -->
+        <div class="card">
+          <p>
+            <i class="fas fa-briefcase stroke-transparent"></i>&nbsp;&nbsp;&nbsp;
+            Education
+          </p>
+          <ul>
+            <li>
+              <p class="tags">
+                Meteorology Study Programme<br /><span
+                  >Institut Teknologi Bandung | <span>IPK: 3.16</span></span
+                >
+              </p>
+            </li>
+          </ul>
+          <a href="#">+ Add Education experience</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- =========== SCRIPT JS =========== -->
+    <script src="./index.js"></script>
+  </body>
+</html>
